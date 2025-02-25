@@ -12,7 +12,7 @@ export default function Signin() {
         <div className="border p-2">
             <input className="p-2 mr-2" type="text" placeholder="username" onChange={e => {
                 setUsername(e.target.value);
-            }}/>
+            }} />
             <input className="p-2 mr-2" type="password" placeholder="password" onChange={e => {
                 setPassword(e.target.value);
             }} />

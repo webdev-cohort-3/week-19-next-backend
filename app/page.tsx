@@ -8,7 +8,7 @@ export default function Home() {
         <br />
         <Link className="text-md border m-2" href={"/signin"}>Sign in to Todo app</Link>
         <br />
-        <Link className="text-md border m-2" href={"/signin"}>Sign up to Todo app</Link>
+        <Link className="text-md border m-2" href={"/signup"}>Sign up to Todo app</Link>
       </div>
     </div>
   );
